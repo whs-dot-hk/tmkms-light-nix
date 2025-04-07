@@ -1,16 +1,217 @@
 {
   "nodes": {
+    "aws-c-auth": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660586491,
+        "narHash": "sha256-oLX/evqtKbs5/WpSUBdLdKWKD8tdWwP0iRONuMCVu/E=",
+        "owner": "awslabs",
+        "repo": "aws-c-auth",
+        "rev": "831fa583b83574db29cbae139b42e0d7a1d1ebb8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.6.15",
+        "repo": "aws-c-auth",
+        "type": "github"
+      }
+    },
+    "aws-c-cal": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660166705,
+        "narHash": "sha256-sT5ahf8MuIhqDV6RrRU+RgsLdwVUDEFWRZJpzQJOPGA=",
+        "owner": "awslabs",
+        "repo": "aws-c-cal",
+        "rev": "1458c70a26877345ca28e333a092096afd410774",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.5.18",
+        "repo": "aws-c-cal",
+        "type": "github"
+      }
+    },
+    "aws-c-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660266841,
+        "narHash": "sha256-zxV+Rf0bUrWao5ALnqgAWMVsuGfLKQbQXvw/ppDMd28=",
+        "owner": "awslabs",
+        "repo": "aws-c-common",
+        "rev": "be35e65a6c67ae2ffd126516c9783ac1dd2e8910",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.8.0",
+        "repo": "aws-c-common",
+        "type": "github"
+      }
+    },
+    "aws-c-compression": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626712361,
+        "narHash": "sha256-bRNHjKhIpaWYToAFFUXUhyqYDmbL7SuZs2np/iH8Qzs=",
+        "owner": "awslabs",
+        "repo": "aws-c-compression",
+        "rev": "5fab8bc5ab5321d86f6d153b06062419080820ec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.2.14",
+        "repo": "aws-c-compression",
+        "type": "github"
+      }
+    },
+    "aws-c-http": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1658445173,
+        "narHash": "sha256-ErwsRYz0D5ktlDaXIDvTXkxO7MM0N4RAA5IBqPbNfAc=",
+        "owner": "awslabs",
+        "repo": "aws-c-http",
+        "rev": "30230bede737dda19dc5ed2b15bb37b70aeb71e1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.6.19",
+        "repo": "aws-c-http",
+        "type": "github"
+      }
+    },
+    "aws-c-io": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651077704,
+        "narHash": "sha256-LIrAA3+Yd0lhCMQ9R4HT/ZFKm3y9iSm3h5vcn0ghiPA=",
+        "owner": "awslabs",
+        "repo": "aws-c-io",
+        "rev": "8f4508f5ec7d2949d5545e2b1ddcd1beb47a76a8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.11.0",
+        "repo": "aws-c-io",
+        "type": "github"
+      }
+    },
+    "aws-c-sdkutils": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1644268341,
+        "narHash": "sha256-G+ykP39EmI8BCeulTsZ/OSFKRzXVbEK0+mtJ3tugl5M=",
+        "owner": "awslabs",
+        "repo": "aws-c-sdkutils",
+        "rev": "e3c23f4aca31d9e66df25827645f72cbcbfb657a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awslabs",
+        "ref": "v0.1.2",
+        "repo": "aws-c-sdkutils",
+        "type": "github"
+      }
+    },
+    "aws-lc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1688759077,
+        "narHash": "sha256-AqA0fIbBFk6SD533oTSXy9Kc7Fja8vgiiPTF00+V2MY=",
+        "owner": "aws",
+        "repo": "aws-lc",
+        "rev": "cb7712dfa896d32d55992e2cb13d5fa54fb77002",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aws",
+        "ref": "v1.12.0",
+        "repo": "aws-lc",
+        "type": "github"
+      }
+    },
+    "aws-nitro-enclaves-nsm-api": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690366991,
+        "narHash": "sha256-HxgQilQpKCRy8lmcjALIpwyAr1m1dcaUqcCL3D9JaCU=",
+        "owner": "aws",
+        "repo": "aws-nitro-enclaves-nsm-api",
+        "rev": "4b851f3006c6fa98f23dcffb2cba03b39de9b8af",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aws",
+        "ref": "v0.4.0",
+        "repo": "aws-nitro-enclaves-nsm-api",
+        "type": "github"
+      }
+    },
+    "aws-nitro-enclaves-sdk-c": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1691417128,
+        "narHash": "sha256-x5RElLc/S0Zwg5mZc4/J4c/OPdHvw8uAsbqZrzIzBrA=",
+        "owner": "aws",
+        "repo": "aws-nitro-enclaves-sdk-c",
+        "rev": "550f7313bf792bf03200c7c6e1ac3fd7d2dc382f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aws",
+        "ref": "v0.4.1",
+        "repo": "aws-nitro-enclaves-sdk-c",
+        "type": "github"
+      }
+    },
+    "aws-nitro-enclaves-sdk-c-nix": {
+      "inputs": {
+        "aws-c-auth": "aws-c-auth",
+        "aws-c-cal": "aws-c-cal",
+        "aws-c-common": "aws-c-common",
+        "aws-c-compression": "aws-c-compression",
+        "aws-c-http": "aws-c-http",
+        "aws-c-io": "aws-c-io",
+        "aws-c-sdkutils": "aws-c-sdkutils",
+        "aws-lc": "aws-lc",
+        "aws-nitro-enclaves-nsm-api": "aws-nitro-enclaves-nsm-api",
+        "aws-nitro-enclaves-sdk-c": "aws-nitro-enclaves-sdk-c",
+        "flake-utils": "flake-utils",
+        "json-c": "json-c",
+        "nixpkgs": "nixpkgs",
+        "s2n-tls": "s2n-tls"
+      },
+      "locked": {
+        "lastModified": 1721470283,
+        "narHash": "sha256-fQXeUO99+OWpxcuZgYFqN8aRHI1lD7qwiGjDSu+gqWA=",
+        "owner": "whs-dot-hk",
+        "repo": "aws-nitro-enclaves-sdk-c-nix",
+        "rev": "6397ad25fe9d47839c55f550897eb618c12aa9cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "whs-dot-hk",
+        "repo": "aws-nitro-enclaves-sdk-c-nix",
+        "type": "github"
+      }
+    },
     "fenix": {
       "inputs": {
-        "nixpkgs": "nixpkgs",
+        "nixpkgs": "nixpkgs_2",
         "rust-analyzer-src": "rust-analyzer-src"
       },
       "locked": {
-        "lastModified": 1736663419,
-        "narHash": "sha256-1Fudfwvkp65w+V89BQrc4dyKLFGJZHtSjHxpwmWwwms=",
+        "lastModified": 1742452566,
+        "narHash": "sha256-sVuLDQ2UIWfXUBbctzrZrXM2X05YjX08K7XHMztt36E=",
         "owner": "nix-community",
         "repo": "fenix",
-        "rev": "89350fe9d9b7f77a17be0541115bfc4f52ba6e40",
+        "rev": "7d9ba794daf5e8cc7ee728859bc688d8e26d5f06",
         "type": "github"
       },
       "original": {
@@ -22,6 +223,24 @@
     "flake-utils": {
       "inputs": {
         "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1710146030,
+        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "inputs": {
+        "systems": "systems_2"
       },
       "locked": {
         "lastModified": 1731533236,
@@ -37,13 +256,46 @@
         "type": "github"
       }
     },
+    "json-c": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1649898763,
+        "narHash": "sha256-KbnUWLgpg6/1wvXhUoYswyqDcgiwEcvgaWCPjNcX20o=",
+        "owner": "json-c",
+        "repo": "json-c",
+        "rev": "2f2ddc1f2dbca56c874e8f9c31b5b963202d80e7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "json-c",
+        "ref": "json-c-0.16-20220414",
+        "repo": "json-c",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1736344531,
-        "narHash": "sha256-8YVQ9ZbSfuUk2bUf2KRj60NRraLPKPS0Q4QFTbc+c2c=",
+        "lastModified": 1721403608,
+        "narHash": "sha256-X5+QA5K3J2KA20YEaBJ+GKDj/XIb5PutHmphgYQUszA=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "bffc22eb12172e6db3c5dde9e3e5628f8e3e7912",
+        "rev": "ad0111043c09f7d0f6b9f039882cbf350d4f7d49",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1742288794,
+        "narHash": "sha256-Txwa5uO+qpQXrNG4eumPSD+hHzzYi/CdaM80M9XRLCo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "b6eaf97c6960d97350c584de1b6dcff03c9daf42",
         "type": "github"
       },
       "original": {
@@ -53,13 +305,13 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
+    "nixpkgs_3": {
       "locked": {
-        "lastModified": 1736657626,
-        "narHash": "sha256-FWlPMUzp0lkQBdhKlPqtQdqmp+/C+1MBiEytaYfrCTY=",
+        "lastModified": 1743814133,
+        "narHash": "sha256-drDyYyUmjeYGiHmwB9eOPTQRjmrq3Yz26knwmMPLZFk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2f9e2f85cb14a46410a1399aa9ea7ecf433e422e",
+        "rev": "250b695f41e0e2f5afbf15c6b12480de1fe0001b",
         "type": "github"
       },
       "original": {
@@ -71,20 +323,21 @@
     },
     "root": {
       "inputs": {
+        "aws-nitro-enclaves-sdk-c-nix": "aws-nitro-enclaves-sdk-c-nix",
         "fenix": "fenix",
-        "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs_2",
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_3",
         "tmkms-light": "tmkms-light"
       }
     },
     "rust-analyzer-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1736576343,
-        "narHash": "sha256-8rGcOQegy2CeMJpcdNezNp+JlRgD7JubsDf+TZisP/s=",
+        "lastModified": 1742296961,
+        "narHash": "sha256-gCpvEQOrugHWLimD1wTFOJHagnSEP6VYBDspq96Idu0=",
         "owner": "rust-lang",
         "repo": "rust-analyzer",
-        "rev": "9923b0085c18c45b1a2340f7ef329ea4828e0734",
+        "rev": "15d87419f1a123d8f888d608129c3ce3ff8f13d4",
         "type": "github"
       },
       "original": {
@@ -94,7 +347,39 @@
         "type": "github"
       }
     },
+    "s2n-tls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1687479774,
+        "narHash": "sha256-X+ZwM53ensCeUoxNa8cBO4KcWxWbb7iKxIRysImvKxw=",
+        "owner": "aws",
+        "repo": "s2n-tls",
+        "rev": "e954ee5dc878c5c343d35574e7d07246a1e59314",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aws",
+        "ref": "v1.3.46",
+        "repo": "s2n-tls",
+        "type": "github"
+      }
+    },
     "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_2": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
