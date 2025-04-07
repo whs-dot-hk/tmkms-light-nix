@@ -23,24 +23,24 @@
       };
       packages.docker = let
         app = pkgs.rustPlatform.buildRustPackage {
+          buildInputs = [inputs.aws-nitro-enclaves-sdk-c-nix.packages.${system}.aws-nitro-enclaves-sdk-c];
           cargoBuildFlags = "-p tmkms-nitro-enclave";
           cargoHash = "sha256-bgjqNZvcIsCQHEII6QrHQ76SseL7Iay+21oZaaHoBws=";
+          nativeBuildInputs = [pkgs.pkg-config];
           pname = "tmkms-nitro-enclave";
           src = inputs.tmkms-light;
           version = "1.0.0";
-          buildInputs = [inputs.aws-nitro-enclaves-sdk-c-nix.packages.${system}.aws-nitro-enclaves-sdk-c];
-          nativeBuildInputs = [pkgs.pkg-config];
         };
       in
         pkgs.dockerTools.buildImage {
           name = "tmkms-nitro-enclave";
           tag = "nix";
+          config = {
+            Entrypoint = ["${app}/bin/tmkms-nitro-enclave"];
+          };
           copyToRoot = pkgs.buildEnv {
             name = "image-root";
             paths = [pkgs.dockerTools.caCertificates];
-          };
-          config = {
-            Entrypoint = ["${app}/bin/tmkms-nitro-enclave"];
           };
         };
     });
